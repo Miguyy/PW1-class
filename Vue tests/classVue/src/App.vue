@@ -12,6 +12,13 @@
   <button @click="double">double it</button>
   <p>{{ message }}</p>
   <p>{{ reverseMethod }}</p>
+  <h1>Schools:</h1>
+  <ul v-if="schools.length">
+    <li v-for="school in schools">
+      {{ school }}
+    </li>
+  </ul>
+  <p v-else>no schools inserted</p>
 </template>
 
 <script>
@@ -20,6 +27,7 @@ export default {
     return {
       count: 5,
       message: 'ESMAD',
+      schools: ['ESMAD', 'ISEP', 'IPS', 'ESEC'],
     }
   },
   methods: {
