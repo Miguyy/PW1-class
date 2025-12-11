@@ -1,0 +1,374 @@
+{
+  "notes": [
+    {
+      "id": "b6a1f4d3-9c2b-4e1a-8f9a-1a2b3c4d5e6f",
+      "title": "Reunião de projeto",
+      "content": "Discutir milestones do Q1. Preparar apresentação para stakeholders. Não esquecer de enviar agenda prévia a todos os participantes.",
+      "category": "work",
+      "color": "green",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-01-10T09:30:00.000Z"
+    },
+    {
+      "id": "d2f8a1b0-7c3e-4a9f-9b1d-2c3e4f5a6b7c",
+      "title": "Lista de compras",
+      "content": "Leite, pão, ovos, fruta, legumes para a semana. Ver promoções no folheto do supermercado.",
+      "category": "personal",
+      "color": "yellow",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-12T14:20:00.000Z"
+    },
+    {
+      "id": "a3c9d2e1-5b6f-4b8a-8c2d-3e4f5a6b7c8d",
+      "title": "Ideia para app",
+      "content": "Aplicação de gestão de tempo que usa técnica Pomodoro com estatísticas semanais e integração com calendário. Pesquisar APIs de calendário disponíveis.",
+      "category": "ideas",
+      "color": "green",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-08T16:45:00.000Z"
+    },
+    {
+      "id": "f1e2d3c4-b5a6-4d7e-9a8b-0c1d2e3f4a5b",
+      "title": "Livros para ler",
+      "content": "1. Clean Code - Robert Martin\n2. The Pragmatic Programmer\n3. Design Patterns\n4. You Don't Know JS",
+      "category": "personal",
+      "color": "pink",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-05T11:00:00.000Z"
+    },
+    {
+      "id": "c4d3e2f1-a6b5-4c8d-8b9a-1e2f3d4c5b6a",
+      "title": "Configuração ESLint",
+      "content": "Lembrar de configurar regras de ESLint no próximo projeto: semi, quotes, indent. Usar extensão do VS Code para auto-fix on save.",
+      "category": "work",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-11T10:15:00.000Z"
+    },
+    {
+      "id": "9b8a7c6d-5e4f-4a1b-8c2d-3f4e5d6c7b8a",
+      "title": "Receita de bolo",
+      "content": "Bolo de chocolate da avó: 3 ovos, 200g açúcar, 250g farinha, 50g cacau, 100ml óleo, 200ml leite. Forno 180°C por 40 minutos.",
+      "category": "other",
+      "color": "yellow",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-03T18:30:00.000Z"
+    },
+    {
+      "id": "e4f5a6b7-c8d9-4e1f-9b2a-3c4d5e6f7a8b",
+      "title": "Projeto Vue.js",
+      "content": "Estudar para o exame de Programação Web. Rever conceitos de Pinia, Vue Router e componentes. Fazer os testes modelo disponibilizados.",
+      "category": "work",
+      "color": "green",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-13T08:00:00.000Z"
+    },
+    {
+      "id": "7a6b5c4d-3e2f-4b9a-8c1d-2e3f4a5b6c7d",
+      "title": "Passwords antigas",
+      "content": "Nota com passwords do router antigo e configurações que já não uso. Manter para referência caso precise.",
+      "category": "other",
+      "color": "pink",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2024-12-15T12:00:00.000Z"
+    },
+    {
+      "id": "8c7d6e5f-4a3b-4c1d-9e2f-3a4b5c6d7e8f",
+      "title": "Ideias para férias",
+      "content": "Possíveis destinos: Açores, Madeira, Porto Santo. Pesquisar voos e alojamento para agosto. Ver se há promoções early booking.",
+      "category": "ideas",
+      "color": "yellow",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-09T20:10:00.000Z"
+    },
+    {
+      "id": "5d4c3b2a-1f0e-4a9b-8c7d-6e5f4a3b2c1d",
+      "title": "Aniversário Maria",
+      "content": "25 de Janeiro. Ideias de prenda: livro, perfume, voucher spa. Reservar restaurante para jantar.",
+      "category": "personal",
+      "color": "pink",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-07T15:30:00.000Z"
+    },
+    {
+      "id": "2e3f4a5b-6c7d-4e1f-9a8b-0c1d2e3f4a5b",
+      "title": "Projeto antigo - API REST",
+      "content": "Notas do projeto de API que já entreguei. Endpoints implementados: GET /users, POST /users, PUT /users/:id, DELETE /users/:id",
+      "category": "work",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2024-11-20T09:00:00.000Z"
+    },
+    {
+      "id": "3f2e1d0c-9b8a-4c7d-8e1f-2a3b4c5d6e7f",
+      "title": "Citação inspiradora",
+      "content": "\"The only way to do great work is to love what you do.\" - Steve Jobs. Lembrar disto nos dias mais difíceis.",
+      "category": "other",
+      "color": "green",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-01-06T22:00:00.000Z"
+    },
+    {
+      "id": "b27f",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:52.654Z"
+    },
+    {
+      "id": "0852",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:53.825Z"
+    },
+    {
+      "id": "d22b",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:53.995Z"
+    },
+    {
+      "id": "92cc",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:54.152Z"
+    },
+    {
+      "id": "6c2a",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:54.316Z"
+    },
+    {
+      "id": "b769",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:54.468Z"
+    },
+    {
+      "id": "a3d2",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:54.606Z"
+    },
+    {
+      "id": "12fe",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:54.756Z"
+    },
+    {
+      "id": "6d59",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:54.921Z"
+    },
+    {
+      "id": "c4ad",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:55.096Z"
+    },
+    {
+      "id": "6c5c",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:55.265Z"
+    },
+    {
+      "id": "3e22",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:55.448Z"
+    },
+    {
+      "id": "dc22",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:55.613Z"
+    },
+    {
+      "id": "9bde",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:55.792Z"
+    },
+    {
+      "id": "43e1",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:57.219Z"
+    },
+    {
+      "id": "1f42",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:57.494Z"
+    },
+    {
+      "id": "dca3",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:57.745Z"
+    },
+    {
+      "id": "7cb8",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": false,
+      "createdAt": "2025-12-11T15:12:58.001Z"
+    },
+    {
+      "id": "4bc5",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-12-11T15:13:04.843Z"
+    },
+    {
+      "id": "9727",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-12-11T15:14:57.336Z"
+    },
+    {
+      "id": "864e",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-12-11T15:14:57.490Z"
+    },
+    {
+      "id": "22af",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-12-11T15:14:57.640Z"
+    },
+    {
+      "id": "a916",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-12-11T15:14:57.790Z"
+    },
+    {
+      "id": "a7a9",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-12-11T15:14:57.955Z"
+    },
+    {
+      "id": "c972",
+      "title": "efefef",
+      "content": "efefefefettht",
+      "category": "other",
+      "color": "blue",
+      "pinned": false,
+      "archived": true,
+      "createdAt": "2025-12-11T15:14:58.116Z"
+    }
+  ]
+}

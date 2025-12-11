@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://use.typekit.net/nkc3wfz.css');
+
+:root {
+  --bg-primary: rgb(26, 26, 26);
+  --bg-secondary: #1e1e1e;
+  --bg-soft: rgb(36, 36, 36);
+
+  --text-primary: rgba(255, 255, 255, 0.87);
+  --text-secondary: #b0b0b0;
+
+  --success: #4caf50;
+  --error: #f44336;
+  --error-bg: rgba(244, 67, 54, 0.1);
+
+  --accent-primary: #3b82f6;
+  --accent-secondary: #60a5fa;
+
+  --border-color: #444444;
+  --border-color-hover: #666666;
+
+  --spacing-2xs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+
+  --container-sm: 640px;
+  --container-md: 900px;
+  --container-lg: 1200px;
+
+  --spacing-page: 20px;
+
+  --card-min-width: 280px;
+  --card-max-width: 320px;
+
+  --color-yellow-bg: #fef9c3;
+  --color-yellow-border: #fef08a;
+  --color-green-bg: #dcfce7;
+  --color-green-border: #bbf7d0;
+  --color-blue-bg: #dbeafe;
+  --color-blue-border: #bfdbfe;
+  --color-pink-bg: #fce7f3;
+  --color-pink-border: #fbcfe8;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter-variable', 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  scrollbar-gutter: stable;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-lg);
+  margin: 0 auto;
+  padding-inline: var(--spacing-page);
+}
+
+.container--sm {
+  max-width: var(--container-sm);
+}
+
+.container--md {
+  max-width: var(--container-md);
+}
+
+button,
+select,
+input {
+  font-family: inherit;
+}
+
+button {
+  padding: 10px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background: var(--bg-soft);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+select,
+input {
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-soft);
+  color: var(--text-primary);
+  font-size: var(--font-size-sm);
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--accent-secondary);
+}
+
+select {
+  cursor: pointer;
+}
+
+.loading-state,
+.error-state,
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+}
+
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--error);
+}
+
+.color-yellow {
+  border: 1px solid var(--color-yellow-border);
+}
+
+.color-green {
+  border: 1px solid var(--color-green-border);
+}
+
+.color-blue {
+  border: 1px solid var(--color-blue-border);
+}
+
+.color-pink {
+  border: 1px solid var(--color-pink-border);
+}
+
+.action-btn {
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btn:hover {
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary,
+.btn-primary {
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+  border-color: var(--text-secondary);
+}
+
+.btn-primary {
+  background: var(--accent-primary);
+  border: 1px solid var(--accent-primary);
+  color: var(--bg-primary);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-secondary);
+  border-color: var(--accent-secondary);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
