@@ -1,0 +1,40 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "title": "Sessão de Teste 1",
+      "subject": "frontend",
+      "duration": 45,
+      "completed": false,
+      "favorite": true,
+      "createdAt": "2024-06-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Sessão de Teste 2",
+      "subject": "backend",
+      "duration": 60,
+      "completed": true,
+      "favorite": false,
+      "createdAt": "2024-06-02T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Sessão de Teste 3",
+      "subject": "design",
+      "duration": 30,
+      "completed": false,
+      "favorite": true,
+      "createdAt": "2024-06-03T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Sessão de Teste 4",
+      "subject": "outros",
+      "duration": 90,
+      "completed": true,
+      "favorite": false,
+      "createdAt": "2024-06-04T14:45:00Z"
+    }
+  ]
+}
