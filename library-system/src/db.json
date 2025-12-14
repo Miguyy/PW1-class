@@ -1,0 +1,48 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "978-0-06-112008-4",
+      "publishedYear": 1960,
+      "genre": "Fiction",
+      "available": true,
+      "rating": 2.5,
+      "imageUrl": "https://example.com/images/to-kill-a-mockingbird.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "978-0-452-28423-4",
+      "publishedYear": 1949,
+      "genre": "Dystopian",
+      "available": false,
+      "rating": 4.8,
+      "imageUrl": "https://example.com/images/1984.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "978-0-7432-7356-5",
+      "publishedYear": 1925,
+      "genre": "Classic",
+      "available": true,
+      "rating": 3.9,
+      "imageUrl": "https://example.com/images/the-great-gatsby.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "978-0-19-953556-9",
+      "publishedYear": 1813,
+      "genre": "Romance",
+      "available": true,
+      "rating": 4.2,
+      "imageUrl": "https://example.com/images/pride-and-prejudice.jpg"
+    }
+  ]
+}
