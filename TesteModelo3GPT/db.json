@@ -1,0 +1,76 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Comprar leite",
+      "description": "Ir ao supermercado e comprar leite integral.",
+      "priority": "Alta",
+      "stats": "Pendente",
+      "due_date": "2024-07-01",
+      "completed": false,
+      "favorite": false,
+      "created_at": "2024-06-20T10:00:00Z",
+      "archived": false
+    },
+    {
+      "id": 2,
+      "title": "Estudar para a prova de matemática",
+      "description": "Revisar os tópicos de álgebra e geometria.",
+      "priority": "Média",
+      "stats": "Em andamento",
+      "due_date": "2024-07-05",
+      "completed": false,
+      "favorite": true,
+      "created_at": "2024-06-18T14:30:00Z",
+      "archived": false
+    },
+    {
+      "id": 3,
+      "title": "Enviar relatório mensal",
+      "description": "Compilar dados e enviar o relatório para o gerente.",
+      "priority": "Alta",
+      "stats": "Concluído",
+      "due_date": "2024-06-25",
+      "completed": true,
+      "favorite": false,
+      "created_at": "2024-06-15T09:15:00Z",
+      "archived": true
+    },
+    {
+      "id": 4,
+      "title": "Agendar consulta médica",
+      "description": "Ligar para o consultório e marcar uma consulta de rotina.",
+      "priority": "Baixa",
+      "stats": "Pendente",
+      "due_date": "2024-07-10",
+      "completed": false,
+      "favorite": false,
+      "created_at": "2024-06-22T11:45:00Z",
+      "archived": false
+    },
+    {
+      "id": 5,
+      "title": "Organizar festa de aniversário",
+      "description": "Planejar a lista de convidados, decoração e comida.",
+      "priority": "Média",
+      "stats": "Em andamento",
+      "due_date": "2024-08-15",
+      "completed": false,
+      "favorite": true,
+      "created_at": "2024-06-10T16:20:00Z",
+      "archived": false
+    },
+    {
+      "id": 6,
+      "title": "Ler livro de ficção",
+      "description": "Terminar a leitura do livro 'O Senhor dos Anéis'.",
+      "priority": "Baixa",
+      "stats": "Pendente",
+      "due_date": "2024-07-20",
+      "completed": false,
+      "favorite": false,
+      "created_at": "2024-06-05T13:00:00Z",
+      "archived": false
+    }
+  ]
+}
