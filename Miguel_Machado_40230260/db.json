@@ -1,0 +1,148 @@
+{
+  "dishes": [
+    {
+      "id": "1",
+      "name": "Sopa do Dia",
+      "description": "Sopa caseira preparada diariamente com legumes frescos da época. Servida com pão artesanal.",
+      "price": 4.5,
+      "category": "starters",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/muu4vv3j"
+    },
+    {
+      "id": "2",
+      "name": "Bruschetta Tradicional",
+      "description": "Fatias de pão tostado com tomate fresco, manjericão, alho e azeite extra virgem.",
+      "price": 6.9,
+      "category": "starters",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/4xbpe6z2"
+    },
+    {
+      "id": "3",
+      "name": "Tábua de Queijos",
+      "description": "Seleção de queijos portugueses acompanhados de compotas, frutos secos e tostas.",
+      "price": 12.5,
+      "category": "starters",
+      "available": false,
+      "imageUrl": "https://tinyurl.com/ycyjnjrx"
+    },
+    {
+      "id": "4",
+      "name": "Bacalhau à Brás",
+      "description": "Receita tradicional portuguesa com bacalhau desfiado, batata palha, ovos e azeitonas pretas. Finalizado com salsa fresca.",
+      "price": 16.9,
+      "category": "mains",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/mrxxamdv"
+    },
+    {
+      "id": "5",
+      "name": "Bife da Casa",
+      "description": "Bife de novilho grelhado no ponto pedido, servido com molho de cogumelos, batata assada e legumes salteados.",
+      "price": 18.5,
+      "category": "mains",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/3bpnjbt5"
+    },
+    {
+      "id": "6",
+      "name": "Risotto de Cogumelos",
+      "description": "Arroz arbóreo cremoso com mix de cogumelos silvestres, parmesão e trufa preta.",
+      "price": 14.9,
+      "category": "mains",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/45uzwajb"
+    },
+    {
+      "id": "7",
+      "name": "Salmão Grelhado",
+      "description": "Posta de salmão grelhada com crosta de ervas, puré de batata doce e espargos.",
+      "price": 17.5,
+      "category": "mains",
+      "available": false,
+      "imageUrl": "https://tinyurl.com/m7at3whf"
+    },
+    {
+      "id": "8",
+      "name": "Francesinha",
+      "description": "O clássico do Porto: sanduíche de carnes variadas coberta com queijo derretido e molho especial. Servida com batatas fritas.",
+      "price": 13.9,
+      "category": "mains",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/2pjstafa"
+    },
+    {
+      "id": "9",
+      "name": "Mousse de Chocolate",
+      "description": "Mousse de chocolate negro 70% cacau, leve e aerada, com raspas de chocolate.",
+      "price": 5.5,
+      "category": "desserts",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/mmc37kwb"
+    },
+    {
+      "id": "10",
+      "name": "Pastel de Nata",
+      "description": "Tradicional pastel de nata português com massa folhada crocante e creme de ovos. Servido morno com canela.",
+      "price": 2.5,
+      "category": "desserts",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/2n3r6328"
+    },
+    {
+      "id": "11",
+      "name": "Cheesecake de Frutos Vermelhos",
+      "description": "Cheesecake cremoso com base de bolacha e cobertura de frutos vermelhos frescos.",
+      "price": 6.9,
+      "category": "desserts",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/4v5pvryp"
+    },
+    {
+      "id": "12",
+      "name": "Gelado Artesanal",
+      "description": "Três bolas de gelado artesanal à escolha: baunilha, chocolate, morango, manga ou pistácio.",
+      "price": 4.9,
+      "category": "desserts",
+      "available": false,
+      "imageUrl": "https://tinyurl.com/t4ky7a88"
+    },
+    {
+      "id": "13",
+      "name": "Água Mineral",
+      "description": "Água mineral natural ou com gás, garrafa 50cl.",
+      "price": 2,
+      "category": "drinks",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/2vjpfa3k"
+    },
+    {
+      "id": "14",
+      "name": "Sumo Natural de Laranja",
+      "description": "Sumo de laranja espremido na hora.",
+      "price": 3.5,
+      "category": "drinks",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/5xruawmy"
+    },
+    {
+      "id": "15",
+      "name": "Vinho da Casa",
+      "description": "Copo de vinho tinto ou branco da região, seleção do chef.",
+      "price": 3.9,
+      "category": "drinks",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/yud4jhws"
+    },
+    {
+      "id": 16,
+      "name": "Sangria",
+      "description": "Jarro de sangria tradicional portuguesa com frutas frescas da época (1L).",
+      "price": 12,
+      "category": "drinks",
+      "available": true,
+      "imageUrl": "https://tinyurl.com/yc2prc6e"
+    }
+  ]
+}
